@@ -1,10 +1,12 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Critical Path: No Style</title>
+		<title>Critical Path: Measure Async</title>
+		<link href="style.css" rel="stylesheet">
 	</head>
-	<body>
-		<p>Hello <span>web performance</span> students</p>
+	<body onload="measureCRP()">
+		<p>Hello <span>web performance</span> students!</p>
 		<div><img src="https://pixabay.com/static/uploads/photo/2016/05/21/23/51/squirrel-1407699_960_720.jpg"></div>
+		<script async src="js/timing.js"></script>
 	</body>
 </html>
